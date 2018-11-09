@@ -126,47 +126,47 @@ function init() {
 	    현재 알림이 없습니다.
 	    <br>[<A href="javascript: $('#panel').hide()">CLOSE</A>]
 	  </DIV>
-	  
-		<div style="float: right">
-			<button type="button" class="btn btn-outline-secondary" id="btn_proc" onclick=""></button> 
-		</div>
-	  
-    <div class="form-group">   
-      <label for="type" class="col-md-1 control-label">분류</label>
-      <div class="col-md-11">
-        <input type='text' class="form-control input-md" name='b_type' id='b_type' value='' required="required" style='width: 45%;'>
-      </div>
-    </div>  
-      
-    <div class="form-group">   
-      <label for="title" class="col-md-1 control-label">제목</label>
-      <div class="col-md-11">
-        <input type='text' class="form-control input-md" name='b_title' id='b_title' value='' required="required" style='width: 45%;'>
-      </div>
-    </div>     
-    
-    <div class="form-group">   
-      <label for="content" class="col-md-1 control-label">내용</label>
-      <div class="col-md-11">
-        <textarea class="form-control input-md" name='b_content' id='b_content' rows='10'></textarea>
-      </div>
-    </div> 
-    <!-- 
-    <div class="form-group">   
-      <label for="file1MF" class="col-md-1 control-label">파일</label>
-      <div class="col-md-11">
-        <input type="file" class="form-control input-md" name='b_file' id='b_file' value='' size='40' style='width: 25%;'>         
-      </div>
-    </div> --> 
 
-		<div class="form-group">   
-      <label for="file1MF" class="col-md-1 control-label">작성자</label>
-      <div class="col-md-11">
-        <input type="text" class="form-control input-md" name='b_user' id='b_user' value="" size='40' style='width: 25%;'>         
-      </div>
-    </div>
+	  <DIV id='board'></DIV>	  
+
+	  <div style="float: right">
+	   	 <button type="button" class="btn btn-outline-secondary" id="btn_proc" onclick=""></button> 
+	  </div>
 	  
-	  <DIV id='board'></DIV>
+      <div class="form-group">   
+         <label for="type" class="col-md-1 control-label">분류</label>
+         <div class="col-md-11">
+           <input type='text' class="form-control input-md" name='b_type' id='b_type' value='' required="required" style='width: 45%;'>
+         </div>
+      </div>  
+      
+      <div class="form-group">   
+        <label for="title" class="col-md-1 control-label">제목</label>
+        <div class="col-md-11">
+          <input type='text' class="form-control input-md" name='b_title' id='b_title' value='' required="required" style='width: 45%;'>
+        </div>
+      </div>     
+    
+      <div class="form-group">   
+        <label for="content" class="col-md-1 control-label">내용</label>
+        <div class="col-md-11">
+          <textarea class="form-control input-md" name='b_content' id='b_content' rows='10'></textarea>
+        </div>
+      </div> 
+      <!-- 
+      <div class="form-group">   
+        <label for="file1MF" class="col-md-1 control-label">파일</label>
+        <div class="col-md-11">
+          <input type="file" class="form-control input-md" name='b_file' id='b_file' value='' size='40' style='width: 25%;'>         
+        </div>
+      </div> --> 
+
+	  <div class="form-group">   
+        <label for="file1MF" class="col-md-1 control-label">작성자</label>
+        <div class="col-md-11">
+          <input type="text" class="form-control input-md" name='b_user' id='b_user' value="" size='40' style='width: 25%;'>         
+        </div>
+      </div>	  
 	  
 	</div>
 </div>

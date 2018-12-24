@@ -24,7 +24,7 @@ request.setCharacterEncoding("utf-8");
 BoardProc boardProc = new BoardProc();
 BoardDAO boardDAO = new BoardDAO();
 
-//페이지당 출력할 글 갯수
+//페이지당 출력할 글 갯수 testing
 int pagePost =  0;
 if (request.getParameter("pagePost") == null || request.getParameter("pagePost").equals("undefined")) {
 	pagePost = 2;
